@@ -1,0 +1,3 @@
+npm i
+npm install react
+npm install axios

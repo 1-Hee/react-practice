@@ -1,0 +1,39 @@
+.map-comp > input {
+  width: 250px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.map-comp {
+  min-height: 150px;
+  height: max-content;
+}
+
+.map-comp > ul {
+  padding-top: 5px;
+}
+
+.map-comp ul>li {
+  min-height: 50px;
+  height: max-content;
+  background-color: rgba(0, 0, 0, 0.094);
+  margin-top: 5px;
+  font-size: 24px;
+  padding-left: 10px;
+}
+
+.map-comp ul>li>span{
+  display: inline-block;
+  margin-left: 20px;
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-top: 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+  color: black;
+  font-size: 18px;
+  cursor: pointer;
+}
