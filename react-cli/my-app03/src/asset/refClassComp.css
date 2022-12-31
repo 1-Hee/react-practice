@@ -1,0 +1,26 @@
+.ref-comp {
+  min-height: 100px !important;
+}
+
+.class-comp input {
+  width: max-content;
+  min-width: 250px;
+  height: 40px;
+  color: black;
+  padding-left: 10px;
+  border: 1px solid black;
+}
+
+.class-comp > * {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+
+.success {
+  background-color: lightgreen;
+}
+
+.fail {
+  background-color: rgb(212, 59, 85);
+}
