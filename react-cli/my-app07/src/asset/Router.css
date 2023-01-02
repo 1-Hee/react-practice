@@ -1,0 +1,32 @@
+.route-comp {
+  height: 200px;
+}
+
+textarea {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: 150px;
+  background-color: black;
+  color: white;
+}
+
+.header-menu {
+  width: 60%;
+  height: 50px;
+  margin: 0 auto;
+  background-color: lightcyan;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.header-menu > a {
+  display: block;
+  width: 100px;
+  margin: 10px;
+  background-color: rgb(143, 176, 176);
+  color: white;
+  text-decoration: none;
+}
