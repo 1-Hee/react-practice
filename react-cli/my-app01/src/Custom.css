@@ -1,0 +1,92 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.header-div {
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(45deg, Violet, Orange);
+  text-align: left;
+  padding-left: 15px;
+  border-bottom: 3px dashed lightgray4;
+}
+
+.header-div > h1 {
+  font-size: 36px;
+  line-height: 100px;
+  color: white;
+}
+
+/* 클래스 컴포넌트 속성 */
+.class-comp,
+.func-comp {
+  width: 100%;
+  max-width: 100vw;
+  min-height: 300px;
+  height: max-content;
+  padding-top: 15px;
+  border: 1px dashed red;
+}
+
+.text-box {
+  width: 100%;
+  min-height: 100px;
+  height: max-content;
+  background: linear-gradient(to right, Violet, rgb(71, 59, 214), rgb(77, 172, 255));
+  color: white;
+  box-sizing: border-box;
+}
+
+.text-box > * {
+  font-size: 24px;
+  padding-top: 10px;
+  padding-left: 15px;
+  text-overflow: clip;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100px;
+  height: 50px;
+  font-size: 24px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  color: whitesmoke;
+  background-color: #e06060;
+}
+
+button:active {
+  background-color: #c64545;
+  border-color: darkgray;
+}
+
+.color-btn-div {
+  margin-top: 15px;
+  width: max-content;
+  height: 70px;
+  border: 1px dashed black;
+}
+
+.color-btn-div > button {
+  background-color: lightgray;
+  border-color: darkgray;
+  margin-right: 20px;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.color-btn-div > button:nth-child(2) {
+  color: rgb(241, 78, 78);
+}
+
+.color-btn-div > button:nth-child(3) {
+  color: skyblue;
+}
+
+.color-btn-div > button:active {
+  background-color: darkgray;
+  border-color: black;
+}
