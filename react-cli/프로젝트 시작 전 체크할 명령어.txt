@@ -2,3 +2,11 @@ npm i
 npm install react
 npm install axios
 npm install react-router-dom
+
+// yarn 사용시
+npm i -g corepack
+yarn set version stable
+yarn install
+
+// 리액트 개발용 서버
+yarn global add parcel-bundler
