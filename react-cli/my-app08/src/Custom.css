@@ -1,0 +1,12 @@
+.color-div {
+  height: max-content;
+  display: flex;
+}
+.color-div > * {
+  margin: 10px;
+}
+
+.color-box {
+  width: 64px;
+  height: 64px;
+}

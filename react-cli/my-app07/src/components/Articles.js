@@ -24,7 +24,7 @@ const Articles = () => {
     <>
       <div className="comp func-comp route-comp">
         <Outlet />
-        {/*<ul>{LinkList}</ul> */}
+        {/* <ul>{LinkList}</ul> */}
         <ul>{NavLinkList}</ul>
       </div>
     </>
