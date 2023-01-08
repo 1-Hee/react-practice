@@ -44,7 +44,7 @@ const App = () => {
         </div>
       </ColorProvider>
       <hr></hr>
-      <h1>동적으로 context 사용하기2 (with useContext Hook )</h1>
+      <h1>동적으로 context 사용하기 (with useContext Hook )</h1>
       <ColorProvider>
         <div>
           <SelectColor />
